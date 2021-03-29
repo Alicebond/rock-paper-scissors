@@ -50,7 +50,7 @@ function playRound(playerSelection, computerSelection) {
 
 buttons.forEach((button) =>
   button.addEventListener("click", () => {
-    playerSelection = button.classList[1];
+    playerSelection = button.textContent.toLowerCase();
     game();
   })
 );
@@ -79,7 +79,7 @@ function finalResult() {
     if (playerScores > computerScores)
       final.textContent = "You are the winner! 🎉";
     else if (playerScores < computerScores)
-      final.textContent = "Oops! You lose.";
+      final.textContent = "💥 Oops! You lose.";
     else final.textContent = "Draw!";
   }
 }
