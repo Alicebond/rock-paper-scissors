@@ -1,6 +1,6 @@
 "use strict";
 
-const buttons = document.querySelectorAll(".btn");
+const buttons = document.querySelectorAll(".selection");
 const roundResult = document.querySelector(".round-result");
 const playerScore = document.querySelector(".player-scores");
 const computerScore = document.querySelector(".computer-scores");
@@ -50,7 +50,7 @@ function playRound(playerSelection, computerSelection) {
 
 buttons.forEach((button) =>
   button.addEventListener("click", () => {
-    playerSelection = button.textContent.toLowerCase();
+    playerSelection = button.id;
     game();
   })
 );

@@ -2,12 +2,21 @@ body {
   font-size: 24px;
 }
 
-button {
-  font-size: 20px;
-  height: 35px;
+.selection {
+  font-size: 70px;
+  height: 90px;
   width: 90px;
   margin: 10px;
   cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+
+.reset {
+  font-size: 25px;
+  height: 40px;
+  width: 90px;
+  margin: 30px;
 }
 
 li {
