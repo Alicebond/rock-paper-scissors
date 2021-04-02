@@ -21,6 +21,7 @@ body {
 }
 
 button {
+  text-align: center;
   cursor: pointer;
   border: none;
   border-radius: 8px;
@@ -33,9 +34,9 @@ button:disabled {
 }
 
 .selection {
-  font-size: 70px;
-  height: 90px;
-  width: 90px;
+  font-size: 60px;
+  height: 80px;
+  width: 80px;
   margin: 10px;
 }
 
