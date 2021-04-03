@@ -22,6 +22,7 @@ body {
 
 button {
   -webkit-appearance: none;
+  padding: 0;
   text-align: center;
   cursor: pointer;
   border: none;
