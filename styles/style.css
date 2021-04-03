@@ -57,11 +57,4 @@ li {
   .container {
     margin-top: 0;
   }
-
-  .selection {
-    font-size: 40px;
-    height: 60px;
-    width: 60px;
-    margin: 5px;
-  }
 } ;
