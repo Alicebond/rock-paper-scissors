@@ -74,7 +74,7 @@ li {
 @media (max-width: 480px) {
   .container {
     margin: auto;
-    padding: 15px 0;
+    padding: 15px;
     border: none;
   }
 } ;
