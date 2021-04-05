@@ -15,9 +15,19 @@ body {
 }
 
 .container {
-  margin-top: 5%;
+  margin: 2% auto;
+  padding: 30px;
   display: flex;
   flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+h4 {
+  margin: auto;
+  background-color: rgba(45, 45, 45, 0.1);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 button {
@@ -28,6 +38,7 @@ button {
   border: none;
   border-radius: 8px;
   background-color: rgb(81, 140, 218);
+  margin: auto;
 }
 
 button:disabled {
@@ -35,18 +46,25 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.btn {
+  display: flex;
+}
+
+.reset-btn {
+  display: flex;
+}
+
 .selection {
   font-size: 60px;
   height: 80px;
   width: 80px;
-  margin: 10px;
 }
 
 .reset {
   font-size: 25px;
   height: 50px;
   width: 100px;
-  margin: 30px;
+  margin: auto;
 }
 
 li {
